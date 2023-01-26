@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "name": "bal-sui-plugin",
+  "version": "1.0.0",
+  "description": "A remote plugin for Blockchain Access Layer + SUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIHBS/bal-sui-plugin.git"
+  },
+  "keywords": [
+    "bal",
+    "blockchain",
+    "plugin",
+    "express"
+  ],
+  "author": "Akshay Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIHBS/bal-sui-plugin/issues"
+  },
+  "homepage": "https://github.com/TIHBS/bal-sui-plugin#readme",
+  "dependencies": {
+    "@mysten/sui.js": "^0.20.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
